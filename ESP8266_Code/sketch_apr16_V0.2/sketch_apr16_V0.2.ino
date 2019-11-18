@@ -4,8 +4,8 @@
 #include <ESP8266mDNS.h>
 #include <EEPROM.h>
 
-const char* ssid = "BMPTW03";
-const char* password = "IN2TH3W1LD@03";
+const char* ssid = "Your Router's Wifi Name";
+const char* password = "Your Router Wifi Password";
 
 const char *ssidAP = "ESPapStationTest222";
 const char *passwordAP = "";
