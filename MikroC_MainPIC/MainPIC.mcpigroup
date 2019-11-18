@@ -1,6 +1,0 @@
-[PROJECTS]
-Count=2
-Project0=..\..\Keypad test\MikroC\keypadtest.mcppi
-Project1=MainPIC.mcppi
-[ActiveProject]
-Index=1

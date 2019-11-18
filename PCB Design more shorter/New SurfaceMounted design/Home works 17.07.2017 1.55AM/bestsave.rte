@@ -1,0 +1,876 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA_POWER
+   (shape (circ TOP 127000 0 0))
+   (shape (circ I1 127000 0 0))
+   (shape (circ I2 127000 0 0))
+   (shape (circ I3 127000 0 0))
+   (shape (circ I4 127000 0 0))
+   (shape (circ I5 127000 0 0))
+   (shape (circ I6 127000 0 0))
+   (shape (circ I7 127000 0 0))
+   (shape (circ I8 127000 0 0))
+   (shape (circ I9 127000 0 0))
+   (shape (circ I10 127000 0 0))
+   (shape (circ I11 127000 0 0))
+   (shape (circ I12 127000 0 0))
+   (shape (circ I13 127000 0 0))
+   (shape (circ I14 127000 0 0))
+   (shape (circ BOT 127000 0 0))
+  )
+  (padstack $VIA_SIGNAL
+   (shape (circ TOP 127000 0 0))
+   (shape (circ I1 127000 0 0))
+   (shape (circ I2 127000 0 0))
+   (shape (circ I3 127000 0 0))
+   (shape (circ I4 127000 0 0))
+   (shape (circ I5 127000 0 0))
+   (shape (circ I6 127000 0 0))
+   (shape (circ I7 127000 0 0))
+   (shape (circ I8 127000 0 0))
+   (shape (circ I9 127000 0 0))
+   (shape (circ I10 127000 0 0))
+   (shape (circ I11 127000 0 0))
+   (shape (circ I12 127000 0 0))
+   (shape (circ I13 127000 0 0))
+   (shape (circ I14 127000 0 0))
+   (shape (circ BOT 127000 0 0))
+  )
+  (padstack PS14
+   (shape (rect BOT -63500 -152400 63500 152400))
+  )
+  (padstack PS15
+   (shape (circ TOP 177800 0 0))
+   (shape (circ I1 177800 0 0))
+   (shape (circ I2 177800 0 0))
+   (shape (circ I3 177800 0 0))
+   (shape (circ I4 177800 0 0))
+   (shape (circ I5 177800 0 0))
+   (shape (circ I6 177800 0 0))
+   (shape (circ I7 177800 0 0))
+   (shape (circ I8 177800 0 0))
+   (shape (circ I9 177800 0 0))
+   (shape (circ I10 177800 0 0))
+   (shape (circ I11 177800 0 0))
+   (shape (circ I12 177800 0 0))
+   (shape (circ I13 177800 0 0))
+   (shape (circ I14 177800 0 0))
+   (shape (circ BOT 177800 0 0))
+  )
+  )
+  (network_out
+   (Net #00002 
+   (rule
+   )
+   (wire (path TOP 63499  -4381500 -1701800 -4381500 -1917699 -4067650 -2237419
+     -4067650 -2510950 -4064000 -2514600)
+    (connect (terminal pin U1-0) (terminal smd R3-1))
+    (type protect)
+   )
+   (wire (path TOP 76200  -4064000 -2514600 -4117695 -2568295 -4117695 -3111500)
+    (connect (terminal smd R3-1) (terminal smd R1-0))
+    (type protect)
+   )
+   )
+   (Net #00003 
+   (rule
+   )
+   (wire (path TOP 101600  -4117695 -3746500 -4117695 -3497313 -4031293 -3410911
+     -3909102 -3410911 -3822700 -3324509 -3822700 -3114395 -3825595 -3111500)
+    (connect (terminal smd R1-1) (terminal smd R2-0))
+    (type protect)
+   )
+   )
+   (Net #00011 
+   (rule
+   )
+   (wire (path BOT 63499  -2209800 -4254500 -1879600 -4254500 -1625600 -4000500
+     -1625600 -1447800 -1879600 -1193800 -3543300 -1193800)
+    (connect (terminal smd U11-7) (terminal via))
+    (type protect)
+   )
+   (wire (path TOP 63499  -3543300 -1193800 -3549303 -1199803 -3751750 -1199803
+     -3954196 -997357 -3954196 -300304 -4318000 63500)
+    (connect (terminal via) (terminal smd R5-0))
+    (type protect)
+   )
+   (via PS15 -3543300 -1193800)
+   )
+   (Net #00013 
+   (rule
+   )
+   (wire (path BOT 127000  -711200 901700 -863600 901700 -1117600 1155700
+     -1117600 1460500)
+    (connect (terminal pin J3-0) (terminal pin U12-1))
+    (type protect)
+   )
+   (wire (path BOT 127000  -1117600 1460500 -1219200 1562100 -1574800 1562100)
+    (connect (terminal pin U12-1) (terminal pin R7-1))
+    (type protect)
+   )
+   )
+   (Net #00014 
+   (rule
+   )
+   (wire (path BOT 127000  -711200 393700 -1130300 393700 -1333500 190500)
+    (connect (terminal pin J3-1) (terminal pin R8-1))
+    (type protect)
+   )
+   (wire (path BOT 203200  -711200 393700 -711200 -1397000 -698500 -1409700)
+    (connect (terminal pin J3-1) (terminal pin J4-0))
+    (type protect)
+   )
+   (wire (path BOT 203200  -698500 -3200400 -927100 -3365500 -1117600 -3365500)
+    (connect (terminal pin J6-0) (terminal pin U9-1))
+    (type protect)
+   )
+   (wire (path BOT 203200  -698500 -2311400 -889000 -2476500 -1117600 -2476500)
+    (connect (terminal pin J5-0) (terminal pin U8-1))
+    (type protect)
+   )
+   (wire (path BOT 127000  -711200 393700 -707747 397153 -491381 397153
+     -491381 404712 -347750 548343 -347750 1304296 -503954 1460500
+     -863600 1460500)
+    (connect (terminal pin J3-1) (terminal pin U12-0))
+    (type protect)
+   )
+   (wire (path BOT 203200  -499711 -2310754 -503887 -2310754 -697854 -2310754
+     -698500 -2311400)
+    (connect (terminal wire) (terminal pin J5-0))
+    (type protect)
+   )
+   (wire (path BOT 203200  -499711 -2310754 -374382 -2436083 -374382 -3051584
+     -519671 -3196873)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 203200  -698500 -1409700 -697186 -1408386 -491355 -1408386
+     -382736 -1517005 -382736 -2193779 -499711 -2310754)
+    (connect (terminal pin J4-0) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 203200  -519671 -3196873 -694973 -3196873 -711200 -3213100
+     -698500 -3200400)
+    (connect (terminal wire) (terminal pin J6-0))
+    (type protect)
+   )
+   (wire (path BOT 203200  -519671 -3196873 -381000 -3335544 -381000 -3962400
+     -520700 -4102100 -686178 -4102100)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 30480  -686178 -4102100 -682132 -4098054 -698500 -4102100)
+    (connect (terminal wire) (terminal pin J7-0))
+    (type protect)
+   )
+   (wire (path BOT 203200  -686178 -4102100 -838578 -4254500 -1117600 -4254500)
+    (connect (terminal wire) (terminal pin U10-1))
+    (type protect)
+   )
+   (wire (path BOT 30480  -686178 -4102100 -698500 -4102100)
+    (connect (terminal wire) (terminal pin J7-0))
+    (type protect)
+   )
+   (wire (path BOT 203200  -698500 -1409700 -863600 -1574800 -1117600 -1574800)
+    (connect (terminal pin J4-0) (terminal pin U7-1))
+    (type protect)
+   )
+   (wire (path TOP 127000  -1117600 -4254500 -1244600 -4254500 -1600200 -4610100)
+    (connect (terminal pin U10-1) (terminal smd R13-1))
+    (type protect)
+   )
+   (wire (path TOP 127000  -1117600 -3365500 -1260566 -3365500 -1365221 -3470155
+     -1463555 -3470155 -1600200 -3606800)
+    (connect (terminal pin U9-1) (terminal smd R12-1))
+    (type protect)
+   )
+   (wire (path TOP 127000  -1117600 -2476500 -1485900 -2476500 -1600200 -2590800)
+    (connect (terminal pin U8-1) (terminal smd R11-1))
+    (type protect)
+   )
+   (wire (path TOP 127000  -1117600 -1574800 -1600200 -1574800)
+    (connect (terminal pin U7-1) (terminal smd R10-1))
+    (type protect)
+   )
+   )
+   (Net #00015 
+   (rule
+   )
+   (wire (path TOP 127000  -2273300 190500 -1943100 190500)
+    (connect (terminal pin D1-0) (terminal pin D3-0))
+    (type protect)
+   )
+   (wire (path TOP 127000  -2273300 190500 -2273300 460621 -2543641 730962
+     -2828679 1016000 -3162300 1016000 -3251200 927100 -3251200 723900)
+    (connect (terminal pin D1-0) (terminal smd U2-1))
+    (type protect)
+   )
+   )
+   (Net #00016 
+   (rule
+   )
+   (wire (path BOT 127000  -2590800 1562100 -2590800 1206500)
+    (connect (terminal pin R7-0) (terminal pin D2-0))
+    (type protect)
+   )
+   (wire (path BOT 127000  -2590800 1206500 -2273300 1206500)
+    (connect (terminal pin D2-0) (terminal pin D1-1))
+    (type protect)
+   )
+   )
+   (Net #00017 
+   (rule
+   )
+   (wire (path TOP 127000  -2590800 190500 -2590800 368300 -2946400 723900
+     -2997200 723900)
+    (connect (terminal pin D2-1) (terminal smd U2-0))
+    (type protect)
+   )
+   (wire (path TOP 101600  -2590800 190500 -2590800 29210 -2498090 -63500
+     -1715388 -63500 -1617216 34672 -1617216 186184 -1612900 190500)
+    (connect (terminal pin D2-1) (terminal pin D4-1))
+    (type protect)
+   )
+   )
+   (Net #00018 
+   (rule
+   )
+   (wire (path BOT 127000  -1333500 1206500 -1612900 1206500)
+    (connect (terminal pin R8-0) (terminal pin D4-0))
+    (type protect)
+   )
+   (wire (path BOT 127000  -1612900 1206500 -1943100 1206500)
+    (connect (terminal pin D4-0) (terminal pin D3-1))
+    (type protect)
+   )
+   )
+   (Net #00020 
+   (rule
+   )
+   (wire (path BOT 63499  -2082800 -1676400 -1927225 -1676400)
+    (connect (terminal via) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 63499  -1927225 -1676400 -1803400 -1800225 -1803400 -3559175)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 63499  -1803400 -3559175 -1990725 -3746500 -2209800 -3746500)
+    (connect (terminal wire) (terminal smd U11-5))
+    (type protect)
+   )
+   (wire (path TOP 101600  -3251200 -114300 -3251200 -393700 -3238500 -406400)
+    (connect (terminal smd U2-4) (terminal smd R9-1))
+    (type protect)
+   )
+   (wire (path TOP 63499  -3238500 -406400 -3066814 -406400 -2888779 -584435
+     -2465447 -584435 -2353734 -696148 -2353734 -1621366 -2286000 -1689100
+     -2095500 -1689100 -2082800 -1676400)
+    (connect (terminal smd R9-1) (terminal via))
+    (type protect)
+   )
+   (via PS15 -2082800 -1676400)
+   )
+   (Net #00023 
+   (rule
+   )
+   (wire (path TOP 76200  -3251200 -939800 -2913144 -939800 -2907339 -945605
+     -2921000 -939800)
+    (connect (terminal smd R14-1) (terminal smd U3-0))
+    (type protect)
+   )
+   )
+   (Net #00025 
+   (rule
+   )
+   (wire (path TOP 127000  -1600200 -939800 -2082800 -939800)
+    (connect (terminal smd R10-0) (terminal smd U3-5))
+    (type protect)
+   )
+   )
+   (Net #00026 
+   (rule
+   )
+   (wire (path TOP 127000  -1117600 -1320800 -1160653 -1277747 -1748090 -1277747
+     -1918143 -1447800 -2082800 -1447800)
+    (connect (terminal pin U7-2) (terminal smd U3-3))
+    (type protect)
+   )
+   )
+   (Net #00027 
+   (rule
+   )
+   (wire (path TOP 76200  -2921000 -1955800 -2933700 -1993900 -2971800 -1955800
+     -3251200 -1955800)
+    (connect (terminal smd U4-0) (terminal smd R15-1))
+    (type protect)
+   )
+   )
+   (Net #00029 
+   (rule
+   )
+   (wire (path TOP 127000  -1600200 -1955800 -2082800 -1955800)
+    (connect (terminal smd R11-0) (terminal smd U4-5))
+    (type protect)
+   )
+   )
+   (Net #00030 
+   (rule
+   )
+   (wire (path TOP 127000  -1117600 -2222500 -1092200 -2222500 -1143000 -2273300
+     -1730963 -2273300 -1921463 -2463800 -2082800 -2463800)
+    (connect (terminal pin U8-2) (terminal smd U4-3))
+    (type protect)
+   )
+   )
+   (Net #00031 
+   (rule
+   )
+   (wire (path TOP 76200  -2921000 -2971800 -2857500 -2933700 -2895600 -2971800
+     -3251200 -2971800)
+    (connect (terminal smd U5-0) (terminal smd R16-1))
+    (type protect)
+   )
+   )
+   (Net #00033 
+   (rule
+   )
+   (wire (path TOP 127000  -1600200 -2971800 -2082800 -2971800)
+    (connect (terminal smd R12-0) (terminal smd U5-5))
+    (type protect)
+   )
+   )
+   (Net #00034 
+   (rule
+   )
+   (wire (path TOP 127000  -1117600 -3111500 -1255587 -3111500 -1431627 -3287540
+     -1435778 -3291691 -1755352 -3291691 -1943461 -3479800 -2082800 -3479800)
+    (connect (terminal pin U9-2) (terminal smd U5-3))
+    (type protect)
+   )
+   )
+   (Net #00035 
+   (rule
+   )
+   (wire (path TOP 76200  -2921000 -3975100 -2921000 -3962400 -3251200 -3962400
+     -3251200 -3975100)
+    (connect (terminal smd U6-0) (terminal smd R17-1))
+    (type protect)
+   )
+   )
+   (Net #00037 
+   (rule
+   )
+   (wire (path TOP 127000  -1600200 -3975100 -2082800 -3975100)
+    (connect (terminal smd R13-0) (terminal smd U6-5))
+    (type protect)
+   )
+   )
+   (Net #00038 
+   (rule
+   )
+   (wire (path TOP 127000  -1117600 -4000500 -1121955 -4004855 -1293283 -4004855
+     -1351387 -4062959 -1351387 -4119987 -1543379 -4311979 -1749818 -4311979
+     -1920939 -4483100 -2082800 -4483100)
+    (connect (terminal pin U10-2) (terminal smd U6-3))
+    (type protect)
+   )
+   )
+   (Net #00039 
+   (rule
+   )
+   (wire (path BOT 76200  -3528691 -2060603 -3525488 -2057400 -2419350 -2057400
+     -2209800 -2266950 -2209800 -2476500)
+    (connect (terminal via) (terminal smd U11-0))
+    (type protect)
+   )
+   (wire (path TOP 76200  -3251200 -1574800 -3332074 -1574800 -3495207 -1737933
+     -3495207 -2027119 -3528691 -2060603)
+    (connect (terminal smd R14-0) (terminal via))
+    (type protect)
+   )
+   (via PS15 -3528691 -2060603)
+   )
+   (Net #00040 
+   (rule
+   )
+   (wire (path BOT 63499  -3695700 -1879600 -3365500 -1879600 -3251200 -1955800
+     -2208104 -1955800 -1981200 -2182704 -1981200 -2711450 -2000250 -2730500
+     -2209800 -2730500)
+    (connect (terminal via) (terminal smd U11-1))
+    (type protect)
+   )
+   (wire (path TOP 63499  -3251200 -2590800 -3571557 -2590800 -3721100 -2441257
+     -3721100 -1905000 -3695700 -1879600)
+    (connect (terminal smd R15-0) (terminal via))
+    (type protect)
+   )
+   (via PS15 -3695700 -1879600)
+   )
+   (Net #00041 
+   (rule
+   )
+   (wire (path BOT 63499  -3695700 -1663700 -3238500 -1663700 -3111500 -1841500
+     -2146300 -1841500 -1892300 -2095500 -1892300 -2889250 -1987550 -2984500
+     -2209800 -2984500)
+    (connect (terminal via) (terminal smd U11-2))
+    (type protect)
+   )
+   (wire (path TOP 63499  -3251200 -3606800 -3395980 -3606800 -3479800 -3522980
+     -3479800 -2851725 -3860800 -2470725 -3860800 -1715998 -3808502 -1663700
+     -3695700 -1663700)
+    (connect (terminal smd R16-0) (terminal via))
+    (type protect)
+   )
+   (via PS15 -3695700 -1663700)
+   )
+   (Net #00042 
+   (rule
+   )
+   (wire (path BOT 76200  -2489200 -4508500 -2209800 -4508500)
+    (connect (terminal via) (terminal smd U11-8))
+    (type protect)
+   )
+   (wire (path TOP 76200  -3251200 -4610100 -3165402 -4695898 -2657448 -4695898
+     -2489200 -4508500)
+    (connect (terminal smd R17-0) (terminal via))
+    (type protect)
+   )
+   (via PS15 -2489200 -4508500)
+   )
+   (Net #00043 
+   (rule
+   )
+   (wire (path BOT 203200  -698500 -1866900 -1079500 -1866900 -1117600 -1828800)
+    (connect (terminal pin J4-1) (terminal pin U7-0))
+    (type protect)
+   )
+   )
+   (Net #00044 
+   (rule
+   )
+   (wire (path BOT 203200  -698500 -2768600 -1079500 -2768600 -1117600 -2730500)
+    (connect (terminal pin J5-1) (terminal pin U8-0))
+    (type protect)
+   )
+   )
+   (Net #00045 
+   (rule
+   )
+   (wire (path BOT 203200  -698500 -3657600 -1079500 -3657600 -1117600 -3619500)
+    (connect (terminal pin J6-1) (terminal pin U9-0))
+    (type protect)
+   )
+   )
+   (Net #00046 
+   (rule
+   )
+   (wire (path BOT 203200  -698500 -4559300 -1066800 -4559300 -1117600 -4508500)
+    (connect (terminal pin J7-1) (terminal pin U10-0))
+    (type protect)
+   )
+   )
+   (Net #00047 
+   (rule
+   )
+   (wire (path BOT 76200  -3695700 -2971800 -3568700 -2844800 -3568700 -2578100)
+    (connect (terminal smd X1-0) (terminal smd C2-0))
+    (type protect)
+   )
+   (wire (path BOT 101600  -3048000 -2984500 -3026907 -2991124 -3046231 -2971800
+     -3606800 -2971800)
+    (connect (terminal smd U11-15) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 101600  -3606800 -2971800 -3695700 -2971800)
+    (connect (terminal wire) (terminal smd X1-0))
+    (type protect)
+   )
+   )
+   (Net #00048 
+   (rule
+   )
+   (wire (path BOT 63499  -4470400 -596900 -4594621 -596900 -4651278 -653557
+     -4651278 -924022 -4610100 -965200 -4140200 -965200 -3860800 -1244600
+     -3860800 -1426932 -3847374 -1440358 -3550742 -1440358 -3543300 -1447800)
+    (connect (terminal pin Q1-1) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 63499  -3543300 -1447800 -1968500 -1447800)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 63499  -1968500 -1447800 -1714500 -1701800 -1714500 -3752850)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 63499  -1714500 -3752850 -1962150 -4000500 -2209800 -4000500)
+    (connect (terminal wire) (terminal smd U11-6))
+    (type protect)
+   )
+   )
+   (Net #00049 
+   (rule
+   )
+   (wire (path BOT 63499  -3048000 -4508500 -4092584 -4508500 -4374703 -4226381
+     -4374703 -3943797 -4406900 -3911600 -4559300 -3911600)
+    (connect (terminal smd U11-9) (terminal pin J8-1))
+    (type protect)
+   )
+   )
+   (Net #00050 
+   (rule
+   )
+   (wire (path BOT 63499  -3048000 -4254500 -3237752 -4254500 -3357981 -4374729
+     -4032672 -4374729 -4267200 -4140201 -4267200 -3764048 -4374703 -3656545
+     -4558245 -3656545 -4559300 -3657600)
+    (connect (terminal smd U11-10) (terminal pin J8-2))
+    (type protect)
+   )
+   )
+   (Net #00051 
+   (rule
+   )
+   (wire (path BOT 63499  -3048000 -4000500 -3166446 -4000500 -3428918 -4262972
+     -3992028 -4262972 -4178300 -4076700 -4178300 -3515794 -4290494 -3403600
+     -4559300 -3403600)
+    (connect (terminal smd U11-11) (terminal pin J8-3))
+    (type protect)
+   )
+   )
+   (Net #00052 
+   (rule
+   )
+   (wire (path BOT 63499  -3048000 -3746500 -3073400 -3797300 -3238500 -3797300
+     -3517900 -4152900 -3924300 -4152900 -4068256 -4008944 -4068256 -3355534
+     -4274674 -3149116 -4558816 -3149116 -4559300 -3149600)
+    (connect (terminal smd U11-12) (terminal pin J8-4))
+    (type protect)
+   )
+   )
+   (Net #00053 
+   (rule
+   )
+   (wire (path BOT 76200  -3048000 -2730500 -3327400 -2730500 -3340100 -2717800
+     -3340100 -2462032 -3450240 -2351892 -4002892 -2351892 -4089400 -2438400
+     -4089400 -2679700 -4305300 -2895600 -4565448 -2895600 -4584773 -2914925
+     -4559300 -2895600)
+    (connect (terminal smd U11-16) (terminal pin J8-5))
+    (type protect)
+   )
+   )
+   (Net #00054 
+   (rule
+   )
+   (wire (path BOT 76200  -3048000 -2476500 -3289300 -2235200 -4108248 -2235200
+     -4199540 -2326492 -4199540 -2478892 -4360406 -2639758 -4557458 -2639758
+     -4559300 -2641600)
+    (connect (terminal smd U11-17) (terminal pin J8-6))
+    (type protect)
+   )
+   )
+   (Net #00055 
+   (rule
+   )
+   (wire (path BOT 76200  -3695700 -3479800 -3594100 -3581400 -3594100 -3873500)
+    (connect (terminal smd X1-1) (terminal smd C3-0))
+    (type protect)
+   )
+   (wire (path BOT 101600  -3048000 -3238500 -3200400 -3245124)
+    (connect (terminal smd U11-14) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 101600  -3200400 -3245124 -3461024 -3245124 -3695700 -3479800)
+    (connect (terminal wire) (terminal smd X1-1))
+    (type protect)
+   )
+   )
+   (Net #00060 
+   (rule
+   )
+   (wire (path BOT 101600  -4559300 -4165600 -4559300 -4400354 -4292600 -4559300)
+    (connect (terminal pin J8-0) (terminal via))
+    (type protect)
+   )
+   (wire (path TOP 101600  -4292600 -4559300 -4298754 -4660900 -4559300 -4660900)
+    (connect (terminal via) (terminal smd R20-1))
+    (type protect)
+   )
+   (wire (path TOP 30480  -4559300 -4386760 -4540441 -4367901 -4559300 -4419600)
+    (connect (terminal wire) (terminal smd R19-0))
+    (type protect)
+   )
+   (wire (path TOP 101600  -4559300 -4660900 -4559300 -4386760)
+    (connect (terminal smd R20-1) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 101600  -4559300 -4165600 -4559300 -4386760)
+    (connect (terminal pin J8-0) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 30480  -4559300 -4386760 -4559300 -4419600)
+    (connect (terminal wire) (terminal smd R19-0))
+    (type protect)
+   )
+   (via PS15 -4292600 -4559300)
+   )
+   (Net GND 
+   (rule
+   )
+   (wire (path BOT 76200  -2495609 -3499006 -2216306 -3499006 -2209800 -3492500)
+    (connect (terminal via) (terminal smd U11-4))
+    (type protect)
+   )
+   (wire (path BOT 30480  -2209800 -3492500 -2246957 -3492500)
+    (connect (terminal smd U11-4) (terminal wire))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path BOT 76200  -3822700 -2578100 -3952595 -2707995 -3952595 -3697385
+     -3848100 -3801880 -3848100 -3873500)
+    (connect (terminal smd C2-1) (terminal smd C3-1))
+    (type protect)
+   )
+   (wire (path TOP 76200  -3505200 -114300 -3503243 -112343 -3503243 102507
+     -3364593 241157 -2928719 241157 -2747291 59729 -2747291 -79566)
+    (connect (terminal smd U2-3) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 76200  -2747291 -79566 -2614444 -212413 -1705287 -212413
+     -1536700 -381000)
+    (connect (terminal wire) (terminal pin U12-2))
+    (type protect)
+   )
+   (wire (path TOP 76200  -3911600 63500 -3716953 258147 -3716953 842348
+     -3537357 1021944 -3537357 1095365 -3556000 1066800)
+    (connect (terminal smd R6-1) (terminal pin J2-7))
+    (type protect)
+   )
+   (wire (path TOP 76200  -3505200 -114300 -3683000 63500 -3911600 63500)
+    (connect (terminal smd U2-3) (terminal smd R6-1))
+    (type protect)
+   )
+   (wire (path TOP 63499  -2703074 -3221637 -2641600 -3283111 -2641600 -3492500)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 63499  -2641600 -3492500 -2641600 -4176841 -2693859 -4229100
+     -2921000 -4229100)
+    (connect (terminal wire) (terminal smd U6-1))
+    (type protect)
+   )
+   (wire (path TOP 76200  -2641600 -3492500 -2502115 -3492500 -2495609 -3499006)
+    (connect (terminal wire) (terminal via))
+    (type protect)
+   )
+   (wire (path TOP 63499  -2902412 -1193800 -2920691 -1212079 -2921000 -1193800)
+    (connect (terminal wire) (terminal smd U3-1))
+    (type protect)
+   )
+   (wire (path TOP 30480  -2902412 -1193800 -2921000 -1193800)
+    (connect (terminal wire) (terminal smd U3-1))
+    (type protect)
+   )
+   (wire (path TOP 76200  -2692400 -1193800 -2902412 -1193800)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 63499  -2692400 -1193800 -2692400 -1199275 -2634002 -1257673
+     -2634002 -2138702 -2705100 -2209800)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 63499  -3505200 -114300 -3505200 -520700 -3327400 -698500
+     -2768600 -698500 -2578100 -889000 -2578100 -1079500 -2692400 -1193800)
+    (connect (terminal smd U2-3) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 63499  -2705100 -2209800 -2641600 -2273300 -2641600 -3160163
+     -2703074 -3221637)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 101600  -3560360 -4393557 -3560360 -4644992 -3580885 -4665517
+     -3919683 -4665517 -3924300 -4660900)
+    (connect (terminal wire) (terminal smd R20-0))
+    (type protect)
+   )
+   (wire (path TOP 101600  -2921000 -4229100 -3098287 -4229100 -3180643 -4311456
+     -3478259 -4311456 -3560360 -4393557)
+    (connect (terminal smd U6-1) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 101600  -3560360 -4393557 -3560360 -4011735 -3825595 -3746500)
+    (connect (terminal wire) (terminal smd R2-1))
+    (type protect)
+   )
+   (wire (path TOP 63499  -2705100 -2209800 -2894931 -2209800 -2910490 -2225359
+     -2921000 -2209800)
+    (connect (terminal wire) (terminal smd U4-1))
+    (type protect)
+   )
+   (wire (path TOP 101600  -2703074 -3221637 -2916837 -3221637 -2921000 -3225800)
+    (connect (terminal wire) (terminal smd U5-1))
+    (type protect)
+   )
+   (via PS15 -2495609 -3499006)
+   )
+   (Net GPIO0 
+   (rule
+   )
+   )
+   (Net GPIO02 
+   (rule
+   )
+   )
+   (Net "POWER 3.3V" 
+   (rule
+   )
+   (wire (path BOT 76200  -3810000 1320800 -3810000 1549400 -3898900 1638300
+     -4203700 1638300 -4318000 1524000 -4318000 1320800)
+    (connect (terminal pin J2-1) (terminal pin J2-3))
+    (type protect)
+   )
+   (wire (path TOP 76200  -4318000 1320800 -4473381 1320800 -4549914 1244267
+     -4549914 -88604 -4436746 -201772 -4344828 -201772 -4114800 -431800
+     -4114800 -1346200 -4212676 -1444076)
+    (connect (terminal pin J2-3) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 76200  -4212676 -1444076 -4377776 -1444076 -4381500 -1447800)
+    (connect (terminal wire) (terminal pin U1-1))
+    (type protect)
+   )
+   (wire (path TOP 76200  -4212676 -1444076 -4194823 -1444076 -4064000 -1574899
+     -4064000 -1879600)
+    (connect (terminal wire) (terminal smd R3-0))
+    (type protect)
+   )
+   (wire (path TOP 30480  -4212676 -1444076 -4216400 -1447800 -4381500 -1447800)
+    (connect (terminal wire) (terminal pin U1-1))
+    (type protect)
+   )
+   (wire (path TOP 76200  -4318000 1320800 -4318000 1644727 -4306397 1656330
+     -4318000 1625600)
+    (connect (terminal pin J2-3) (terminal smd R4-0))
+    (type protect)
+   )
+   )
+   (Net RESET 
+   (rule
+   )
+   (wire (path TOP 76200  -4064000 1320800 -4064000 1467555 -3902663 1628892
+     -3686292 1628892 -3683000 1625600)
+    (connect (terminal pin J2-2) (terminal smd R4-1))
+    (type protect)
+   )
+   )
+   (Net RX 
+   (rule
+   )
+   (wire (path TOP 76200  -4318000 698500 -3940681 698500 -3931397 689216
+     -3911600 698500)
+    (connect (terminal smd R5-1) (terminal smd R6-0))
+    (type protect)
+   )
+   (wire (path TOP 76200  -4318000 1066800 -4318000 698500)
+    (connect (terminal pin J2-4) (terminal smd R5-1))
+    (type protect)
+   )
+   )
+   (Net TX 
+   (rule
+   )
+   (wire (path BOT 76200  -3556000 1320800 -3555899 1320901 -3297213 1320901
+     -3162300 1185988 -3162300 330200)
+    (connect (terminal pin J2-0) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 76200  -3162300 330200 -3416300 76200 -4000500 76200
+     -4470400 -393700)
+    (connect (terminal wire) (terminal pin Q1-0))
+    (type protect)
+   )
+   )
+   (Net VCC/VDD 
+   (rule
+   )
+   (wire (path BOT 76200  -3048000 -3492500 -2821085 -3492500 -2746571 -3567014
+     -2746571 -4543230 -2569019 -4720782 -1778000 -4720782 -1524000 -4466782
+     -1524000 -1092200 -2235200 -381000)
+    (connect (terminal smd U11-13) (terminal pin U12-3))
+    (type protect)
+   )
+   (wire (path BOT 76200  -2235200 -381000 -3466492 -381000 -3889825 -804333
+     -4466167 -804333 -4470400 -800100)
+    (connect (terminal pin U12-3) (terminal pin Q1-2))
+    (type protect)
+   )
+   (wire (path TOP 101600  -2235200 -381000 -2260600 -406400 -2603500 -406400)
+    (connect (terminal pin U12-3) (terminal smd R9-0))
+    (type protect)
+   )
+   (wire (path TOP 76200  -4470400 -800100 -4381500 -889000 -4381500 -1193800)
+    (connect (terminal pin Q1-2) (terminal pin U1-2))
+    (type protect)
+   )
+   (wire (path TOP 63499  -4381500 -1193800 -4584700 -1193800 -4660900 -1270000
+     -4660900 -2291586 -4558182 -2394304 -4412915 -2394304)
+    (connect (terminal pin U1-2) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 63499  -4412915 -2394304 -4310197 -2497022 -4310197 -4033703
+     -3924300 -4419600)
+    (connect (terminal wire) (terminal smd R19-1))
+    (type protect)
+   )
+   )
+   (Net {NC-1} 
+   (via PS14 -2755900 -2489200 (net {NC-1} )
+    (type protect))
+   )
+   (Net {NC-2} 
+   (via PS14 -2743200 -914400 (net {NC-2} )
+    (type protect))
+   )
+  )
+ )

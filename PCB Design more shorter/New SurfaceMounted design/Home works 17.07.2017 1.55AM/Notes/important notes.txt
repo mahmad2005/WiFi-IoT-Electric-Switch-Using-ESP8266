@@ -1,0 +1,5 @@
+1. transistor needs to change to c825a or any onther common one
+2. should implement a in-circuit programming system for 16f628a
+3. 3.3 volt power supply ic needs to change its position.. place in little bit    downward. 
+4. reduce the overall hight. 5v power supply module should be placed without consil. so there are some changes needed. can be drilled near power pins. 
+5. 16f628's ic holder hight must be reduced. 
